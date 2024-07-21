@@ -8,10 +8,10 @@ const AboutUs = () => {
       {/* Circle with image and outer circle */}
       <div className="md:flex-shrink-0 md:w-1/3 flex justify-center">
         {/* Outer circle */}
-        <div className="bg-desktop relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary shadow-lg flex justify-center items-center transition-all duration-300 hover:w-96 hover:h-96">
+        <div className="bg-desktop relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary shadow-lg flex justify-center items-center transition-all duration-300 hover:w-96 hover:h-96 hover:scale-110">
           {/* Ikon yang muncul saat hover, ditempatkan di atas kanan dan bawah kanan */}
           <div className="absolute inset-0 flex justify-center items-center transition-opacity opacity-0 hover:opacity-100">
-            <FaRegLightbulb className="text-blue-500 text-3xl absolute right-2 top-2" />
+            <FaRegLightbulb className="text-blue-500 text-3xl absolute right-2 top-2 " />
             <FaRegSmile className="text-blue-500 text-3xl absolute right-2 bottom-2" />
           </div>
           {/* Inner image circle */}
