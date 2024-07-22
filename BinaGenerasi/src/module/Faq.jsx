@@ -3,9 +3,9 @@ import { imgFaq } from '../assets'
 
 const Faq = () => {
     return (
-      <div className='container mx-auto flex flex-col px-10 lg:flex-row relative '>
+      <div className='container mx-auto flex flex-col lg:flex-row relative '>
         <div className='absolute top-5 left-5 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 ml-2 z-10'>Faq</div>
-        <div className='w-full lg:w-1/2 mt-2 flex items-center justify-center px-5'>
+        <div className='w-full lg:w-1/2 mt-2 flex items-center justify-center px-5'data-aos="fade-right">
           <div className='relative w-full max-w-lg'>
             <img src={imgFaq} alt="FAQ" className='object-cover w-full rounded-lg' style={{ filter: 'brightness(50%)' }} />
             <div className='absolute inset-0 bg-primary opacity-30 rounded-lg'></div>
@@ -14,7 +14,7 @@ const Faq = () => {
             </div>
           </div>
         </div>
-        <div className='w-full lg:w-1/2 px-5'>
+        <div className='w-full lg:w-1/2 px-5'data-aos="fade-left">
           <div className="collapse collapse-arrow bg-white mt-2 shadow-md">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title text-lg lg:text-xl font-medium text-primary">Bagaimana Cara Konsultasi Langsung dengan Dokter?</div>

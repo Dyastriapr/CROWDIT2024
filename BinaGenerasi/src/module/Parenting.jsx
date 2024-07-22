@@ -19,10 +19,10 @@ const Parenting = () => {
 
   return (
     <div className="p-5">
-      <p className='text-primary text-center text-2xl md:text-3xl font-extrabold' data-aos="fade-left">Apa Parenting itu Penting?</p>
+      <p className='text-primary text-center text-2xl md:text-3xl font-extrabold'>Apa Parenting itu Penting?</p>
       
       <div className='flex flex-col md:flex-row mt-10 container mx-auto'>
-        <div className='w-full md:w-1/3 overflow-x-hidden' data-aos="fade-right">
+        <div className='w-full md:w-1/3 'data-aos="fade-right">
           <ul className="timeline timeline-vertical">
             {[
               { age: '0 - 1 Bulan', text: "Masa Neonatal Fase Awal: Pada bulan pertama, bayi belajar mengenal dunia melalui indera penglihatan, pendengaran, dan sentuhan. Nutrisi dan kasih sayang menjadi sangat penting di tahap ini.", key: 'Neonatal' },
@@ -40,7 +40,7 @@ const Parenting = () => {
                   <FaCheckCircle className="text-primary text-xl" />
                 </div>
                 <div 
-                  className={`timeline-end text-black bg-white timeline-box btn hover:bg-primary hover:text-white ${activeAgeGroup === key ? 'bg-primary text-white ' : ''}`}
+                  className={`timeline-end timeline-box btn hover:bg-primary hover:text-white ${activeAgeGroup === key ? 'bg-primary text-white' : ''}`}
                   onClick={() => handleButtonClick(text, key)}
                 >
                   {key}
@@ -51,7 +51,7 @@ const Parenting = () => {
           </ul>
         </div>
 
-        <div className='w-full md:w-2/3 mt-6 md:mt-0 'data-aos="fade-left">
+        <div className='w-full md:w-2/3 mt-6 md:mt-0'>
           <p className='text-justify md:text-md'>Parenting adalah proses berkelanjutan yang berlangsung selama masa tumbuh kembang anak dari lahir hingga mereka dewasa. Setiap tahapan memiliki keunikan dan tantangan tersendiri. Berikut ini adalah garis besar tahapan utama dalam tumbuh kembang anak dari bayi baru lahir hingga mereka mencapai kemandirian penuh (Silahkan Pilih Masa Parenting Anak):</p>
           <p className='mt-5 font-semibold text-justify'>{content || "Pilih tahapan untuk melihat detail lebih lanjut."}</p>
 

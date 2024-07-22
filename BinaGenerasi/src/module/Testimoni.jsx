@@ -3,7 +3,7 @@ import { imgDokter1 } from '../assets';
 
 const Testimoni = () => {
   return (
-    <div className="py-10 px-6 container mx-auto flex flex-col items-center">
+    <div className="py-10 px-6 container mx-auto flex flex-col items-center " data-aos="fade-up">
       <div className="w-full">
         <div className="text-left mb-5">
           <div className="inline-block bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">Testimoni</div>

@@ -47,14 +47,14 @@ const Tips = () => {
 
     return (
         <div className='flex px-5 mt-15 container mx-auto'>
-            <div className='w-1/4 hidden md:block'>
+            <div className='w-1/4 hidden md:block' data-aos="fade-right">
                 <div className='bg-primary text-white font-bold rounded btn py-2 hover:bg-primary'>Tips Dan Saran</div>
                 <p className='text-center md:text-left lg:text-left text-primary text-2xl md:text-3xl font-extrabold mt-5 leading-normal'>Praktis, Cepat, dan Berguna Untuk Para Orang Tua</p>
             </div>
-            <div className='w-3/4 hidden md:block ' data-aos="fade-right overflow-hidden">
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+            <div className='w-3/4 hidden md:block '>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-4' data-aos="zoom-in">
                     {tips.map((tip, index) => (
-                        <div key={index} className='bg-primary flex flex-col items-center p-4 rounded shadow-md hover:scale-105 transition-transform duration-300' style={cardStyle}>
+                        <div key={index} className='bg-primary flex flex-col items-center p-4 rounded shadow-md hover:scale-105 transition-transform duration-300' style={cardStyle} >
                             {tip.icon}
                             <h3 className='font-semibold text-white'>{tip.title}</h3>
                             <p className='text-white text-md md:text-md text-center'>{tip.description}</p>

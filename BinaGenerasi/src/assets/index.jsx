@@ -10,5 +10,9 @@ import imgDokter1 from "./image/Dokter1.jpg"
 import imgDokter2 from "./image/Dokter2.jpg"
 import imgDokter3 from "./image/Dokter3.jpg"
 import imgFaq from "./image/Faq.jpeg"
+import imgFacebook from "./image/Facebook.png"
+import imgGoogle from "./image/google.png"
+import imgLogin from "./image/loginn.png"
+import imgRegister from "./image/Register.png"
 
-export {imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3 , imgFaq}
+export {imgRegister ,imgLogin, imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3 , imgFaq , imgFacebook , imgGoogle}
