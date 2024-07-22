@@ -14,7 +14,7 @@ const PrevArrow = (props) => {
   return (
     <div
       className="absolute z-10 flex items-center justify-center w-12 h-12 bg-white rounded-full cursor-pointer shadow-lg"
-      style={{ top: '50%', left: '10px', transform: 'translateY(-50%)' }} // Adjust position
+      style={{ top: '50%', left: '10px', transform: 'translateY(-50%)' }}
       onClick={onClick}
     >
       <svg
@@ -29,7 +29,7 @@ const PrevArrow = (props) => {
       </svg>
     </div>
   );
-}
+};
 
 // Custom Next Arrow component
 const NextArrow = (props) => {
@@ -37,7 +37,7 @@ const NextArrow = (props) => {
   return (
     <div
       className="absolute z-10 flex items-center justify-center w-12 h-12 bg-white rounded-full cursor-pointer shadow-lg"
-      style={{ top: '50%', right: '10px', transform: 'translateY(-50%)' }} // Adjust position
+      style={{ top: '50%', right: '10px', transform: 'translateY(-50%)' }}
       onClick={onClick}
     >
       <svg
@@ -52,7 +52,7 @@ const NextArrow = (props) => {
       </svg>
     </div>
   );
-}
+};
 
 const Dokter = () => {
   const doctors = [
@@ -141,22 +141,22 @@ const Dokter = () => {
 
   return (
     <div className='w-full bg-primary relative'>
-      <div className='flex px-10 py-10 mx-auto container'>
-        <div className='w-1/3 flex flex-col justify-center items-center'>
+      <div className='flex flex-col md:flex-row px-5 md:px-10 py-10 mx-auto container'>
+        <div className='w-full md:w-1/3 flex flex-col justify-center items-center mb-5 md:mb-0'>
           <div className='text-white text-center font-bold text-xl mb-4'>Apa Yang Kami Tawarkan ?</div>
-          <div className='bg-white text-primary text-2xl text-center font-bold p-5 rounded-lg capitalize'>
+          <div className='bg-white text-primary text-lg md:text-2xl text-center font-bold p-5 rounded-lg capitalize'>
             Kami Menawarkan Layanan Konsultasi dengan Dokter dan Ahli Terbaik
           </div>
         </div>
-        <div className='w-2/3 px-5'>
+        <div className='w-full md:w-2/3'>
           <Slider {...settings}>
             {doctors.map((doctor, index) => (
-              <div key={index} className='px-0.5'>
-                <div className='bg-white p-4 rounded-lg flex flex-col items-center w-56 h-72 mx-auto'>
+              <div key={index} className='p-1'>
+                <div className='bg-white p-4 rounded-lg flex flex-col items-center mx-auto' style={{ width: '90%', height: '300px' }}>
                   <p className='font-bold text-center text-primary'>{doctor.specialty}</p>
-                  <img src={doctor.imgSrc} alt="Doctor" className='w-32 h-32 rounded-full mt-3 object-cover' />
+                  <img src={doctor.imgSrc} alt={doctor.name} className='w-32 h-32 rounded-full mt-3 object-cover hover:scale-110 transition-transform duration-300' />
                   <p className='font-bold mt-3 text-center text-primary'>{doctor.name}</p>
-                  <p className='font-bold text-center text-primary'>{doctor.location}</p>
+                  <p className='text-sm font-bold text-center text-primary'>{doctor.location}</p>
                 </div>
               </div>
             ))}

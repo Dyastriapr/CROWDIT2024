@@ -13,6 +13,9 @@ export default {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
+      transitionProperty: {
+        opacity: "opacity",
+      },
     },
   },
   plugins: [require("daisyui")],

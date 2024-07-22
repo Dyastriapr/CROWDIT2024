@@ -13,12 +13,18 @@ import Youtube from './module/Youtube'
 import Dokter from './module/Dokter'
 import Testimoni from './module/Testimoni'
 import Article from './module/Article'
+import Faq from './module/Faq'
+import Footer from './components/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 
 const App = () => {
   return (
-    <div className='bg-desktop md:px-10'>
+    <div className='bg-desktop'>
       <Navbar />
       <div className='content space-y-10'>
         <Hero />
@@ -31,9 +37,11 @@ const App = () => {
         <Dokter />
         <Testimoni />
         <Article />
+        <Faq />
 
       </div>
       <BackToTop />
+      <Footer />
     </div>
   )
 }

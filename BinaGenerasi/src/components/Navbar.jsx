@@ -38,8 +38,8 @@ const Navbar = () => {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1 font">
         <li><a>Home</a></li>
-        <li><a>About Us</a></li>
-        <li><a>Article</a></li>
+        <li><a>Doctor</a></li>
+        <li><a>Consultation</a></li>
         <li><a>Contact</a></li>
       </ul>
     </div>

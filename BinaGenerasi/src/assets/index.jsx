@@ -9,5 +9,6 @@ import imgNangis3 from "./image/nangis3.png"
 import imgDokter1 from "./image/Dokter1.jpg"
 import imgDokter2 from "./image/Dokter2.jpg"
 import imgDokter3 from "./image/Dokter3.jpg"
+import imgFaq from "./image/Faq.jpeg"
 
-export {imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3}
+export {imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3 , imgFaq}

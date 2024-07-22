@@ -1,4 +1,3 @@
-// BackToTop.js
 import React, { useState, useEffect } from 'react';
 
 const BackToTop = () => {
@@ -10,24 +9,32 @@ const BackToTop = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    
+
+    // Initial check in case the user lands on a scrolled page
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const goToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    const scrollDuration = 500; // Duration of the scroll animation in milliseconds
+    const scrollStep = -window.scrollY / (scrollDuration / 15);
+    let scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
   };
 
   return (
     showTopBtn && (
       <button
         onClick={goToTop}
-        className="fixed bottom-4 right-4 z-50 p-2 bg-primary text-white rounded-full"
+        className="fixed bottom-4 right-4 z-50 p-3 bg-primary text-white rounded-full shadow-lg transition-opacity duration-300 ease-in-out"
         aria-label="Back to top"
       >
         <svg

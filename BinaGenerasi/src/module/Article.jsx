@@ -30,20 +30,20 @@ const articles = [
 
 const Article = () => {
   return (
-    <div className="container mx-auto py-10 px-4">
+    <div className="container mx-auto py-10 px-4 ">
       <div className="mb-6">
-        <div className="inline-block bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold mb-2">Artikel & News</div>
-        <h2 className="text-2xl font-bold text-primary">Artikel Terbaru</h2>
+       ` <div className="inline-block bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold mb-2 ">Artikel & News</div>
+        <h2 className="text-2xl font-bold text-primary text-2xl md:text-3xl">Artikel Terbaru</h2>
       </div>
       <div className="flex flex-wrap -mx-4">
         <div className="w-full md:w-1/2 px-4 mb-6 md:mb-0">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src={articles[0].imageUrl} alt={articles[0].title} className="w-full h-56 object-cover"/>
+            <img src={articles[0].imageUrl} alt={articles[0].title} className="w-full h-56 object-cover hover:scale-110 transition-transform duration-300"/>
             <div className="p-6">
               <a href={articles[0].link} target="_blank" rel="noopener noreferrer">
                 <h3 className="text-xl font-bold text-primary mb-2 hover:underline">{articles[0].title}</h3>
               </a>
-              <p className="text-gray-700 mb-4">{articles[0].description}</p>
+              <p className="text-gray-700 mb-4 text-justify">{articles[0].description}</p>
               <p className="text-gray-400 text-sm">{articles[0].date}</p>
             </div>
           </div>
@@ -51,12 +51,12 @@ const Article = () => {
         <div className="w-full md:w-1/2 px-4">
           {articles.slice(1).map((article, index) => (
             <div key={index} className="flex mb-6">
-              <img src={article.imageUrl} alt={article.title} className="w-28 h-28 object-cover rounded-lg mr-4"/>
+              <img src={article.imageUrl} alt={article.title} className="w-28 h-28 object-cover rounded-lg mr-4 hover:scale-110 transition-transform duration-300"/>
               <div>
                 <a href={article.link} target="_blank" rel="noopener noreferrer">
                   <h4 className="text-lg font-bold text-primary hover:underline">{article.title}</h4>
                 </a>
-                <p className="text-gray-700">{article.description}</p>
+                <p className="text-gray-700 text-justify">{article.description}</p>
               </div>
             </div>
           ))}
