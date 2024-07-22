@@ -10,13 +10,17 @@ import Parenting from './module/Parenting'
 import Tips from './module/Tips'
 import Kesalahan from './module/Kesalahan'
 import Youtube from './module/Youtube'
+import Dokter from './module/Dokter'
+import Testimoni from './module/Testimoni'
+import Article from './module/Article'
+
 
 
 const App = () => {
   return (
     <div className='bg-desktop md:px-10'>
       <Navbar />
-      <div className='container mx-auto content space-y-10'>
+      <div className='content space-y-10'>
         <Hero />
         <Manfaat />
         <AboutUs />
@@ -24,6 +28,10 @@ const App = () => {
         <Tips />
         <Kesalahan />
         <Youtube />
+        <Dokter />
+        <Testimoni />
+        <Article />
+
       </div>
       <BackToTop />
     </div>

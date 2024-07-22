@@ -3,7 +3,7 @@ import { MdPerson, MdHealthAndSafety, MdOutlinePsychology, MdOutlineSupport } fr
 
 const Manfaat = () => {
   return (
-    <div className="bg-white p-8 shadow-md">
+    <div className="bg-white p-8 shadow-md container mx-auto">
       <h2 className="text-center text-3xl font-extrabold mb-6 text-primary">Manfaat Bersama Kami</h2>
       <p className="text-center mb-10 md:px-32">Rasakan Pemahaman Mendalam dan Dukungan Tulus dalam Pengasuhan Anak Bersama Kami. Kami Berkomitmen Mendampingi Setiap Langkah Perkembangan Anak Anda Menuju Masa Depan yang Cerah.</p>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">

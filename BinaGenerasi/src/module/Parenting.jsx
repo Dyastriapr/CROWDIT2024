@@ -21,7 +21,7 @@ const Parenting = () => {
     <div className="p-4">
       <p className='text-primary text-center text-3xl font-extrabold'>Apa Parenting itu Penting?</p>
       
-      <div className='flex flex-col md:flex-row mt-10 '>
+      <div className='flex flex-col md:flex-row mt-10 container mx-auto'>
         <div className='w-full md:w-1/3'>
           <ul className="timeline timeline-vertical">
             {[

@@ -4,7 +4,7 @@ import { imgHero, imgHero2, imgHero3 } from '../assets';
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full md:mt-10">
+    <div className="flex flex-col md:flex-row w-full md:mt-10 container mx-auto">
       {/* Text and images combined section for mobile, only text for desktop */}
       <div className="md:w-1/2 flex flex-col items-center justify-center p-10">
         <div>

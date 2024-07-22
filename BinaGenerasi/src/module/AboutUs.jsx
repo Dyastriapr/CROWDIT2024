@@ -4,7 +4,7 @@ import { imgAboutUs } from '../assets';
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:space-x-12 px-10 py-6 mt-10 mb-20">
+    <div className="flex flex-col md:flex-row items-center md:space-x-12 px-10 py-6 mt-10 mb-20 container mx-auto">
       {/* Circle with image and outer circle */}
       <div className="md:flex-shrink-0 md:w-1/3 flex justify-center">
         {/* Outer circle */}

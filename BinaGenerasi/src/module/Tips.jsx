@@ -36,7 +36,7 @@ const Tips = () => {
     ];
 
     return (
-        <div className='flex px-10 mt-15 '>
+        <div className='flex px-10 mt-15 container mx-auto '>
             <div className='w-1/4'>
                 <div className='bg-primary text-white font-bold rounded btn py-2 hover:bg-primary'>Tips Dan Saran</div>
                 <p className='text-primary text-3xl font-extrabold mt-5 leading-normal'>Praktis, Cepat, dan Berguna Untuk Para Orang Tua</p>

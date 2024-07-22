@@ -6,5 +6,8 @@ import imgAbout from "./image/About.png"
 import imgNangis from "./image/nangis1.png"
 import imgNangis2 from "./image/nangis2.png"
 import imgNangis3 from "./image/nangis3.png"
+import imgDokter1 from "./image/Dokter1.jpg"
+import imgDokter2 from "./image/Dokter2.jpg"
+import imgDokter3 from "./image/Dokter3.jpg"
 
-export {imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3}
+export {imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3}
