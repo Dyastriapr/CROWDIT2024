@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 
 const Faq = () => {
   return (
-    <div className='container mx-auto flex flex-col lg:flex-row py-10'>
-      {/* Bagian FAQ */}
+<div className='container mx-auto'>
+    <p className='text-center text-2xl md:text-3xl font-extrabold mb-6 text-primary'>Frequently Asked Questions</p>
+    <div className=' flex flex-col lg:flex-row py-10'>
       <div className='w-full lg:w-2/3 px-5'>
         <div className="collapse collapse-arrow bg-white mt-2 shadow-md">
           <input type="radio" name="my-accordion-2" defaultChecked />
@@ -62,6 +63,7 @@ const Faq = () => {
           <Link to="/contact" className="w-full py-2 px-4 bg-primary text-white font-bold rounded-md hover:bg-primary">Kontak Kami</Link>
         </div>
       </div>
+    </div>
     </div>
   );
 }

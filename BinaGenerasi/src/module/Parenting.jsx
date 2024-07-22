@@ -18,7 +18,7 @@ const Parenting = () => {
   };
 
   return (
-    <div className="p-5">
+    <div className="container mx-auto p-5">
       <p className='text-primary text-center text-2xl md:text-3xl font-extrabold'>Apa Parenting itu Penting?</p>
       
       <div className='flex flex-col md:flex-row mt-10 container mx-auto'>
