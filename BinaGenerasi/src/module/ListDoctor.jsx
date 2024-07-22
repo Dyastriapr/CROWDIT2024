@@ -135,7 +135,7 @@ const ListDoctor = () => {
             placeholder="Cari Nama Dokter..."
             value={searchTerm}
             onChange={handleSearch}
-            className="input input-bordered w-full max-w-md"
+            className="input input-bordered w-full max-w-md bg-white"
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -143,14 +143,14 @@ const ListDoctor = () => {
             filteredDoctors.map((doctor, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <img className="w-40 h-40 rounded-full mb-4 object-cover hover:scale-110 transition-transform duration-300" src={doctor.image} alt={doctor.name} />
-                <h3 className="text-xl font-bold">{doctor.name}</h3>
+                <h3 className="text-xl font-bold text-black">{doctor.name}</h3>
                 <p className="text-primary">{doctor.specialty}</p>
                 <p className="text-yellow-500 flex items-center">
                   <span className="mr-1">{doctor.rating}</span> 
                   <span>⭐ ({doctor.reviews})</span>
                 </p>
                 <p className="text-gray-700">+{doctor.patients} Pasien</p>
-                <button className="btn bg-primary mt-4 text-white">Buat Janji</button>
+                <button className="btn bg-primary mt-4 text-white border-none">Buat Janji</button>
               </div>
             ))
           ) : (

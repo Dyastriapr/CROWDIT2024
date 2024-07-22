@@ -101,8 +101,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <NavLink to="/login" className="btn btn-ghost">Login</NavLink>
-        <NavLink to="/regis" className="btn bg-primary text-white">Register</NavLink>
+        <NavLink to="/login" className="btn btn-ghost text-black">Login</NavLink>
+        <NavLink to="/regis" className="btn bg-primary text-white border-none">Register</NavLink>
       </div>
     </div>
   );
