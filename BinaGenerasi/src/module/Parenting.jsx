@@ -40,7 +40,7 @@ const Parenting = () => {
                   <FaCheckCircle className="text-primary text-xl" />
                 </div>
                 <div 
-                  className={`timeline-end timeline-box btn text-black bg-white hover:bg-primary hover:text-white ${activeAgeGroup === key ? 'bg-primary text-white' : ''}`}
+                  className={`timeline-end timeline-box btn text-black bg-white hover:bg-primary hover:text-white border-none ${activeAgeGroup === key ? 'bg-primary text-white' : ''}`}
                   onClick={() => handleButtonClick(text, key)}
                 >
                   {key}

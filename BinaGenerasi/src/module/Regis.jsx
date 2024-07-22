@@ -46,7 +46,7 @@ const Regis = () => {
       {/* Right side */}
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8 bg-white">
         <div className="max-w-sm w-full">
-          <h1 className="text-3xl font-bold mb-4">Sign Up to your Account</h1>
+          <h1 className="text-3xl font-bold mb-4 text-black">Sign Up to your Account</h1>
           <p className="mb-4 text-center">Select method to Sign Up:</p>
           <div className="flex space-x-2 mb-4">
             <button className="flex items-center justify-center w-1/2 py-2 border border-gray-300 rounded-lg hover:bg-gray-100">
@@ -64,11 +64,11 @@ const Regis = () => {
               <div className='flex space-x-2 mb-4'>
                 <div className="w-1/2">
                   <label className="block text-sm font-medium mb-2" htmlFor="first-name">First Name</label>
-                  <input type="text" id="first-name" placeholder="First Name" className="input input-bordered w-full max-w-xs" required/>
+                  <input type="text" id="first-name" placeholder="First Name" className="bg-white input input-bordered w-full max-w-xs" required/>
                 </div>
                 <div className="w-1/2">
                   <label className="block text-sm font-medium mb-2" htmlFor="last-name">Last Name</label>
-                  <input type="text" id="last-name" placeholder="Last Name" className="input input-bordered w-full max-w-xs"  required/>
+                  <input type="text" id="last-name" placeholder="Last Name" className=" bg-white input input-bordered w-full max-w-xs"  required/>
                 </div>
               </div>
 
@@ -84,7 +84,7 @@ const Regis = () => {
                   <path
                     d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
                 </svg>
-                <input id="email" type="text" className="grow" placeholder="Email" required />
+                <input id="email" type="text" className="grow bg-white" placeholder="Email" required />
               </label>
             </div>
             <div className="mb-4">
@@ -100,7 +100,7 @@ const Regis = () => {
                     d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 1 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
                     clipRule="evenodd" />
                 </svg>
-                <input id="password" type="password" className="grow" placeholder="Password" required/>
+                <input id="password" type="password" className="grow bg-white" placeholder="Password" required/>
               </label>
             </div>
             <div className="mb-4">
@@ -116,7 +116,7 @@ const Regis = () => {
                     d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 1 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
                     clipRule="evenodd" />
                 </svg>
-                <input id="confirm-password" type="password" className="grow" placeholder="Confirm Password"  required/>
+                <input id="confirm-password" type="password" className="grow bg-white" placeholder="Confirm Password"  required/>
               </label>
             </div>
            

@@ -18,7 +18,7 @@ const Login = () => {
     <div className="flex min-h-screen">
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8 bg-white">
         <div className="max-w-sm w-full">
-          <h1 className="text-3xl font-bold mb-4">Log in to your Account</h1>
+          <h1 className="text-3xl font-bold mb-4 text-black">Log in to your Account</h1>
           <p className="mb-4">Welcome back! Select method to log in:</p>
           <div className="flex space-x-2 mb-4">
             <button className="flex items-center justify-center w-1/2 py-2 border border-gray-300 rounded-lg hover:bg-gray-100">
@@ -45,7 +45,7 @@ const Login = () => {
                   <path
                     d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
                 </svg>
-                <input id="email" type="text" className="grow" placeholder="Email" />
+                <input id="email" type="text" className="grow bg-white" placeholder="Email" />
               </label>
             </div>
             <div className="mb-4">
@@ -61,12 +61,12 @@ const Login = () => {
                     d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 1 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
                     clipRule="evenodd" />
                 </svg>
-                <input id="password" type="password" className="grow" placeholder="Password" />
+                <input id="password" type="password" className="grow bg-white" placeholder="Password" />
               </label>
             </div>
             <div className="flex items-center justify-between mb-4">
               <label className="flex items-center text-gray-500 text-sm">
-                <input className="mr-2 leading-tight" type="checkbox" />
+                <input className="mr-2 leading-tight bg-white" type="checkbox" />
                 <span>Remember me</span>
               </label>
               <a className="inline-block align-baseline text-sm text-primary hover:text-blue-800" href="#">

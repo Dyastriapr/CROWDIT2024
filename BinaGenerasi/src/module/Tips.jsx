@@ -64,7 +64,7 @@ const Tips = () => {
             </div>
             <div className='w-full md:hidden '>
                 <div className='text-left mb-4'>
-                    <div className='bg-primary text-white font-bold rounded btn py-2'>Tips Dan Saran</div>
+                    <div className='bg-primary text-white font-bold rounded btn py-2 border-none'>Tips Dan Saran</div>
                     <p className='text-primary text-2xl md:text-3xl font-bold mt-2 mb-4 text-center md:text-left lg:text-left'>Praktis dan Berguna Untuk Orang Tua</p>
                 </div>
                 <Swiper
