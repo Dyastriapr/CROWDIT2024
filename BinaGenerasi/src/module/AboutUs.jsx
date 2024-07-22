@@ -31,17 +31,17 @@ const AboutUs = () => {
           <div className="md:mr-8 mb-8 md:mb-0">
             <h3 className="text-lg md:text-xl font-semibold text-primary">Visi Kami</h3>
             <ul className="mt-4 space-y-2 text-sm md:text-base">
-              <li className="flex items-center"><FaCheckCircle className="text-primary mr-2" /> Tanggung jawab dalam setiap kebutuhan parenting</li>
-              <li className="flex items-center"><FaCheckCircle className="text-primary mr-2" /> Layanan dukungan orang tua yang lengkap</li>
-              <li className="flex items-center"><FaCheckCircle className="text-primary mr-2" /> Memperkuat kemampuan mendidik anak</li>
+              <li className="flex items-center text-black"><FaCheckCircle className="text-primary mr-2" /> Tanggung jawab dalam setiap kebutuhan parenting</li>
+              <li className="flex items-center text-black"><FaCheckCircle className="text-primary mr-2" /> Layanan dukungan orang tua yang lengkap</li>
+              <li className="flex items-center text-black"><FaCheckCircle className="text-primary mr-2" /> Memperkuat kemampuan mendidik anak</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg md:text-xl font-semibold text-primary">Misi Kami</h3>
             <ul className="mt-4 space-y-2 text-sm md:text-base">
-              <li className="flex items-center"><FaCheckCircle className="text-primary mr-2" /> Kinerja terbaik dalam pendampingan</li>
-              <li className="flex items-center"><FaCheckCircle className="text-primary mr-2" /> Menyediakan fasilitas modern</li>
-              <li className="flex items-center"><FaCheckCircle className="text-primary mr-2" /> Waktu respons yang cepat</li>
+              <li className="flex items-center text-black"><FaCheckCircle className="text-primary mr-2" /> Kinerja terbaik dalam pendampingan</li>
+              <li className="flex items-center text-black"><FaCheckCircle className="text-primary mr-2" /> Menyediakan fasilitas modern</li>
+              <li className="flex items-center text-black"><FaCheckCircle className="text-primary mr-2" /> Waktu respons yang cepat</li>
             </ul>
           </div>
         </div>

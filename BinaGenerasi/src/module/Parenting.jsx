@@ -35,12 +35,12 @@ const Parenting = () => {
             ].map(({ age, text, key }) => (
               <li key={key}>
                 <hr className='bg-primary' />
-                <div className="timeline-start">{age}</div>
+                <div className="timeline-start text-black">{age}</div>
                 <div className="timeline-middle">
                   <FaCheckCircle className="text-primary text-xl" />
                 </div>
                 <div 
-                  className={`timeline-end timeline-box btn hover:bg-primary hover:text-white ${activeAgeGroup === key ? 'bg-primary text-white' : ''}`}
+                  className={`timeline-end timeline-box btn text-black bg-white hover:bg-primary hover:text-white ${activeAgeGroup === key ? 'bg-primary text-white' : ''}`}
                   onClick={() => handleButtonClick(text, key)}
                 >
                   {key}
@@ -52,10 +52,10 @@ const Parenting = () => {
         </div>
 
         <div className='w-full md:w-2/3 mt-6 md:mt-0'>
-          <p className='text-justify md:text-md'>Parenting adalah proses berkelanjutan yang berlangsung selama masa tumbuh kembang anak dari lahir hingga mereka dewasa. Setiap tahapan memiliki keunikan dan tantangan tersendiri. Berikut ini adalah garis besar tahapan utama dalam tumbuh kembang anak dari bayi baru lahir hingga mereka mencapai kemandirian penuh (Silahkan Pilih Masa Parenting Anak):</p>
-          <p className='mt-5 font-semibold text-justify'>{content || "Pilih tahapan untuk melihat detail lebih lanjut."}</p>
+          <p className='text-justify md:text-md text-black'>Parenting adalah proses berkelanjutan yang berlangsung selama masa tumbuh kembang anak dari lahir hingga mereka dewasa. Setiap tahapan memiliki keunikan dan tantangan tersendiri. Berikut ini adalah garis besar tahapan utama dalam tumbuh kembang anak dari bayi baru lahir hingga mereka mencapai kemandirian penuh (Silahkan Pilih Masa Parenting Anak):</p>
+          <p className='mt-5 font-semibold text-justify text-black'>{content || "Pilih tahapan untuk melihat detail lebih lanjut."}</p>
 
-          <div className='btn rounded bg-primary text-white hover:bg-primary mt-10'>
+          <div className='btn rounded bg-primary text-white hover:bg-primary mt-10 border-none'>
             Temukan Lebih banyak Cara
           </div>
         </div>

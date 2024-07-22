@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="md:w-1/2 flex flex-col items-center justify-center p-5 md:p-10">
         <div>
           <p className="text-primary md:text-xl font-bold mb-2">Didik Anak Kesayanganmu Sedari Dini</p>
-          <p className="text-3xl md:text-5xl font-extrabold mb-2 md:leading-normal leading-none">
+          <p className="text-3xl text-black md:text-5xl font-extrabold mb-2 md:leading-normal leading-none">
             Menginspirasi Orang Tua Disetiap Tahap <span className='text-primary'>Perkembangan</span>
           </p>
           
@@ -36,10 +36,10 @@ const Hero = () => {
             <img src={imgHero} alt="Family Outdoor" className="rounded-xl object-cover shadow-md " />
           </div>
 
-          <p className="md:text-xl">Menjawab setiap permasalahan orangtua dalam mendidik anak pada masa perkembangannya</p>
+          <p className="md:text-xl mt-5 text-black">Menjawab setiap permasalahan orangtua dalam mendidik anak pada masa perkembangannya</p>
           <button
             onClick={handleScroll}
-            className="mt-10 py-2 px-4 bg-primary text-white font-bold rounded btn hover:bg-primary hover:text-white"
+            className="mt-10 py-2 px-4 bg-primary text-white font-bold rounded btn hover:bg-primary hover:text-white border-none"
           >
             Get Started
           </button>

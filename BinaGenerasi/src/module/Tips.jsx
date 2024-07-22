@@ -48,7 +48,7 @@ const Tips = () => {
     return (
         <div className='flex px-5 mt-15 container mx-auto'>
             <div className='w-1/4 hidden md:block' data-aos="fade-right">
-                <div className='bg-primary text-white font-bold rounded btn py-2 hover:bg-primary'>Tips Dan Saran</div>
+                <div className='bg-primary text-white font-bold rounded btn py-2 hover:bg-primary border-none'>Tips Dan Saran</div>
                 <p className='text-center md:text-left lg:text-left text-primary text-2xl md:text-3xl font-extrabold mt-5 leading-normal'>Praktis, Cepat, dan Berguna Untuk Para Orang Tua</p>
             </div>
             <div className='w-3/4 hidden md:block '>

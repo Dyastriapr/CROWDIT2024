@@ -10,11 +10,11 @@ const Testimoni = () => {
         </div>
       </div>
       <div className="text-center max-w-4xl">
-        <p className="md:text-2xl font-semibold mb-6">“Luar biasa! ini benar-benar melampaui harapan saya dalam segala hal. Ini telah menjadi bagian penting dari kehidupan sehari-hari saya sebagai orang tua, dan saya sangat bersyukur atas dampak positif yang telah diberikannya pada keluarga kami.”</p>
+        <p className="md:text-2xl font-semibold mb-6 text-black">“Luar biasa! ini benar-benar melampaui harapan saya dalam segala hal. Ini telah menjadi bagian penting dari kehidupan sehari-hari saya sebagai orang tua, dan saya sangat bersyukur atas dampak positif yang telah diberikannya pada keluarga kami.”</p>
         <div className="flex items-center justify-center">
           <img src={imgDokter1} alt="Nama Orang Tua" className="w-12 h-12 rounded-full mr-4" />
           <div>
-            <p className="font-semibold md:text-lg">Dyas Tri Ap</p>
+            <p className="font-semibold md:text-lg text-black">Dyas Tri Ap</p>
             <p className="md:text-sm text-gray-600">Parent</p>
           </div>
         </div>

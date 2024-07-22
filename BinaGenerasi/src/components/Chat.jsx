@@ -60,7 +60,7 @@ const Chat = ({ isOpen, toggleChat }) => {
             value={input}
             onChange={handleInputChange}
             onKeyPress={handleKeyPress}
-            className="w-full p-2 border border-gray-300 rounded-l-lg"
+            className="w-full p-2 border bg-white rounded-l-lg"
             placeholder="Tulis pesan..."
           />
           <button
