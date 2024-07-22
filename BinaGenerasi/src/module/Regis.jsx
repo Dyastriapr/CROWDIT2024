@@ -1,5 +1,5 @@
 import React from 'react';
-import { imgFacebook, imgGoogle, imgLogin, imgRegister } from '../assets';
+import { imgFacebook, imgGoogle, imgRegister } from '../assets';
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
@@ -30,7 +30,7 @@ const Regis = () => {
   return (
     <div className="flex h-screen">
       {/* Left side */}
-      <div className="relative w-full md:w-1/2 flex items-center justify-center bg-primary">
+      <div className="hidden md:flex relative w-1/2 items-center justify-center bg-primary">
         <img src={imgRegister} alt="Info Graphic" className="w-3/4 h-full object-contain" />
         <div className="absolute top-80 right-40 text-primary font-bold p-2 rounded-md">
           <p className='text-3xl capitalize'>Don't hesitate </p>
@@ -46,8 +46,8 @@ const Regis = () => {
       {/* Right side */}
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8 bg-white">
         <div className="max-w-sm w-full">
-          <h1 className="text-3xl font-bold mb-4">Log in to your Account</h1>
-          <p className="mb-4">Welcome back! Select method to log in:</p>
+          <h1 className="text-3xl font-bold mb-4">Sign Up to your Account</h1>
+          <p className="mb-4 text-center">Select method to Sign Up:</p>
           <div className="flex space-x-2 mb-4">
             <button className="flex items-center justify-center w-1/2 py-2 border border-gray-300 rounded-lg hover:bg-gray-100">
               <img src={imgGoogle} alt="Google" className="w-6 h-6 mr-2" />

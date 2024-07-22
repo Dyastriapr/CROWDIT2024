@@ -58,7 +58,7 @@ const Login = () => {
                   className="h-4 w-4 opacity-70">
                   <path
                     fillRule="evenodd"
-                    d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
+                    d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 1 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
                     clipRule="evenodd" />
                 </svg>
                 <input id="password" type="password" className="grow" placeholder="Password" />
@@ -86,7 +86,7 @@ const Login = () => {
           </p>
         </div>
       </div>
-      <div className="relative w-full md:w-1/2 flex items-center justify-center bg-primary">
+      <div className="hidden md:flex relative w-1/2 items-center justify-center bg-primary">
         <img src={imgLogin} alt="Info Graphic" className="w-3/4 h-full object-contain" />
         <div className="absolute top-96 left-32 text-primary font-bold p-2 rounded-md">
           <p className='text-2xl capitalize'>Come on, consult a child's</p>

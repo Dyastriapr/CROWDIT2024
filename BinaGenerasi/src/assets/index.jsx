@@ -14,5 +14,13 @@ import imgFacebook from "./image/Facebook.png"
 import imgGoogle from "./image/google.png"
 import imgLogin from "./image/loginn.png"
 import imgRegister from "./image/Register.png"
+import imgLDokter1 from "./image/ListDokter1.jpg"
+import imgLDokter2 from "./image/ListDokter2.jpg"
+import imgLDokter3 from "./image/ListDokter3.jpg"
+import imgLDokter4 from "./image/ListDokter4.jpg"
+import imgLDokter5 from "./image/ListDokter5.jpg"
+import imgLDokter6 from "./image/ListDokter6.jpg"
+import imgLDokter7 from "./image/ListDokter7.jpg"
+import imgLDokter8 from "./image/ListDokter8.jpg"
 
-export {imgRegister ,imgLogin, imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3 , imgFaq , imgFacebook , imgGoogle}
+export {imgRegister ,imgLogin, imgHero , imgHero2 , imgHero3, imgAboutUs,imgAbout, imgNangis , imgNangis2 ,imgNangis3,imgDokter1 , imgDokter2, imgDokter3 , imgFaq , imgFacebook , imgGoogle , imgLDokter1, imgLDokter2, imgLDokter3, imgLDokter4,imgLDokter5,imgLDokter6,imgLDokter7,imgLDokter8}
