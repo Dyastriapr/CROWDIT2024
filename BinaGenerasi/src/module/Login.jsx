@@ -34,7 +34,7 @@ const Login = () => {
           <form className="w-full">
             <div className="mb-4">
               <label className="block text-sm font-medium mb-2" htmlFor="email">Email</label>
-              <label className="input input-bordered flex items-center gap-2">
+              <label className="input input-bordered flex items-center gap-2 bg-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
@@ -50,7 +50,7 @@ const Login = () => {
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium mb-2" htmlFor="password">Password</label>
-              <label className="input input-bordered flex items-center gap-2">
+              <label className="input input-bordered flex items-center gap-2 bg-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
