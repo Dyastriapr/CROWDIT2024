@@ -51,7 +51,7 @@ const Parenting = () => {
           </ul>
         </div>
 
-        <div className='w-full md:w-2/3 mt-6 md:mt-0 pl-12' data-aos="fade-right " data-aos-duration="1000">
+        <div className='w-full md:w-2/3 mt-6 md:mt-0 pl-11 overflow-hidden' data-aos="fade-left " data-aos-duration="1000">
           <p className='text-justify md:text-md text-black'>Parenting adalah proses berkelanjutan yang berlangsung selama masa tumbuh kembang anak dari lahir hingga mereka dewasa. Setiap tahapan memiliki keunikan dan tantangan tersendiri. Berikut ini adalah garis besar tahapan utama dalam tumbuh kembang anak dari bayi baru lahir hingga mereka mencapai kemandirian penuh (Silahkan Pilih Masa Parenting Anak):</p>
           <p className='mt-5 font-semibold text-justify text-black'>{content || "Pilih tahapan untuk melihat detail lebih lanjut."}</p>
 

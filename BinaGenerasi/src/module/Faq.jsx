@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Faq = () => {
   return (
-<div className='container mx-auto'>
+<div className='container mx-auto overflow-x-hidden'>
     <p className='text-center text-2xl md:text-3xl font-extrabold mb-6 text-primary ' data-aos="fade-up" data-aos-duration="1000">Frequently Asked Questions</p>
     <div className=' flex flex-col lg:flex-row py-10'>
       <div className='w-full lg:w-2/3 px-5'>
@@ -55,7 +55,7 @@ const Faq = () => {
       </div>
 
       {/* Bagian Kontak */}
-      <div className='w-full lg:w-1/3 p-5 mt-10 lg:mt-0 overflow-x-hidden' data-aos="fade-left" data-aos-duration="1000">
+      <div className='w-full lg:w-1/3 p-5 mt-10 lg:mt-0 ' data-aos="fade-left" data-aos-duration="1000">
         <div className="bg-white px-5 py-10 shadow-md rounded-md text-center">
           <FaMessage  className='text-5xl mb-4 mx-auto text-primary' />
           <h3 className="text-xl text-primary font-bold mb-4">Apakah Anda Memiliki Pertanyaan Lain?</h3>

@@ -30,7 +30,7 @@ const articles = [
 
 const Article = () => {
   return (
-    <div className="container mx-auto py-10 px-4 ">
+    <div className="container mx-auto py-10 px-4 overflow-x-hidden ">
       <div className="mb-6">
        ` <div className="inline-block bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold mb-2 ">Artikel & News</div>
         <h2 className="text-2xl font-bold text-primary text-2xl md:text-3xl">Artikel Terbaru</h2>
@@ -48,7 +48,7 @@ const Article = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 px-4 overflow-x-hidden" data-aos="fade-left"  data-aos-duration="1000">
+        <div className="w-full md:w-1/2 px-4 " data-aos="fade-left"  data-aos-duration="1000">
           {articles.slice(1).map((article, index) => (
             <div key={index} className="flex mb-6">
               <img src={article.imageUrl} alt={article.title} className="w-28 h-28 object-cover rounded-lg mr-4 hover:scale-110 transition-transform duration-300"/>

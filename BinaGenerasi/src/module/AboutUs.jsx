@@ -4,9 +4,9 @@ import { imgAboutUs } from '../assets';
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:space-x-12 px-6 md:px-10 py-6 mt-10 mb-20 container mx-auto">
+    <div className="flex flex-col md:flex-row items-center md:space-x-12 px-6 md:px-10 py-6 mt-10 mb-20 container mx-auto overflow-x-hidden">
       {/* Circle with image and outer circle */}
-      <div className="md:flex-shrink-0 md:w-1/3 flex justify-center mb-8 md:mb-0 overflow-x-hidden" data-aos="fade-right" data-aos-duration="1000">
+      <div className="md:flex-shrink-0 md:w-1/3 flex justify-center mb-8 md:mb-0 overflow-hidden">
         {/* Outer circle */}
         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-lg flex justify-center items-center ">
           {/* Ikon yang muncul saat hover, ditempatkan di atas kanan dan bawah kanan */}
@@ -22,7 +22,7 @@ const AboutUs = () => {
       </div>
 
       {/* Content */}
-      <div className="flex-grow md:w-2/3 overflow-x-hidden " data-aos="fade-left" data-aos-duration="1000">
+      <div className="flex-grow md:w-2/3" data-aos="fade-left">
         <h2 className="text-2xl md:text-3xl font-bold text-primary" >BINA GENERASI</h2>
         <p className="text-black mt-4 text-sm md:text-base text-justify">
           BinaGenerasi adalah tujuan terpercaya Anda untuk dukungan dan bimbingan pengasuhan yang komprehensif. Tim kami yang berpengalaman dalam bidang psikologi dan pendidikan anak berkomitmen untuk membantu mempertahankan dan meningkatkan kualitas pengasuhan Anda. Pengasuhan yang berkualitas adalah prioritas kami, dan kami di sini untuk memenuhi kebutuhan Anda.

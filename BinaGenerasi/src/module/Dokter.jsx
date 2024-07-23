@@ -140,8 +140,8 @@ const Dokter = () => {
   };
 
   return (
-    <div className='w-full bg-primary relative '>
-      <div className='flex flex-col md:flex-row px-5 md:px-10 py-10 mx-auto container'  data-aos="zoom-in"  data-aos-duration="1000">
+    <div className='w-full bg-primary relative' data-aos="zoom-in"  data-aos-duration="1000">
+      <div className='flex flex-col md:flex-row px-5 md:px-10 py-10 mx-auto container'>
         <div className='w-full md:w-1/3 flex flex-col justify-center items-center mb-5 md:mb-0'>
           <div className='text-white text-center font-bold text-xl mb-4'>Apa Yang Kami Tawarkan ?</div>
           <div className='bg-white text-primary text-lg md:text-2xl text-center font-bold p-5 rounded-lg capitalize'>

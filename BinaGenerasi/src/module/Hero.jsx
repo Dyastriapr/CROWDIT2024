@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
       
       {/* Images visible only on desktop */}
-      <div className="hidden md:flex w-full md:w-1/2 items-center justify-center overflow-x-auto">
+      <div className="hidden md:flex w-full md:w-1/2 items-center justify-center overflow-x-hidden">
         <div className="flex flex-row space-x-4 p-4">
           <img src={imgHero} alt="Family Outdoor" className="rounded-xl w-44 h-80 object-cover shadow-md border-2 mb-20 border-solid border-primary hover:scale-105 transition-transform duration-300" />
           <img src={imgHero2} alt="Father and Child" className="rounded-xl w-44 h-80 object-cover shadow-md mt-10 border-2 border-solid border-primary hover:scale-105 transition-transform duration-300" />
