@@ -35,7 +35,7 @@ const BackToTop = () => {
     showTopBtn && (
       <button
         onClick={goToTop}
-        className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 p-3 bg-primary text-white rounded-full shadow-lg transition-opacity duration-300 ease-in-out md:p-4"
+        className="hidden md:block fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 p-3 bg-primary text-white rounded-full shadow-lg transition-opacity duration-300 ease-in-out md:p-4"
         aria-label="Back to top"
       >
         <svg
