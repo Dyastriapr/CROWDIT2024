@@ -52,7 +52,7 @@ const Tips = () => {
                 <p className='text-center md:text-left lg:text-left text-primary text-2xl md:text-3xl font-extrabold mt-5 leading-normal'>Praktis, Cepat, dan Berguna Untuk Para Orang Tua</p>
             </div>
             <div className='w-3/4 hidden md:block '>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-4' data-aos="zoom-in">
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-4' data-aos="zoom-in"  data-aos-duration="1000">
                     {tips.map((tip, index) => (
                         <div key={index} className='bg-primary flex flex-col items-center p-4 rounded shadow-md hover:scale-105 transition-transform duration-300' style={cardStyle} >
                             {tip.icon}

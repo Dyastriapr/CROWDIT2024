@@ -141,7 +141,7 @@ const ListDoctor = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {filteredDoctors.length > 0 ? (
             filteredDoctors.map((doctor, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+              <div key={index} className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center"  data-aos="fade-up"  data-aos-duration="1000">
                 <img className="w-40 h-40 rounded-full mb-4 object-cover hover:scale-110 transition-transform duration-300" src={doctor.image} alt={doctor.name} />
                 <h3 className="text-xl font-bold text-black">{doctor.name}</h3>
                 <p className="text-primary">{doctor.specialty}</p>

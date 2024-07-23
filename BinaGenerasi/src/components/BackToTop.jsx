@@ -21,25 +21,26 @@ const BackToTop = () => {
   const goToTop = () => {
     const scrollDuration = 500; // Duration of the scroll animation in milliseconds
     const scrollStep = -window.scrollY / (scrollDuration / 15);
-    let scrollInterval = setInterval(() => {
+
+    const smoothScroll = () => {
       if (window.scrollY !== 0) {
         window.scrollBy(0, scrollStep);
-      } else {
-        clearInterval(scrollInterval);
+        requestAnimationFrame(smoothScroll);
       }
-    }, 15);
+    };
+    requestAnimationFrame(smoothScroll);
   };
 
   return (
     showTopBtn && (
       <button
         onClick={goToTop}
-        className="fixed bottom-[2%] right-[50%]  z-50 p-3 bg-primary text-white rounded-full shadow-lg transition-opacity duration-300 ease-in-out"
+        className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 p-3 bg-primary text-white rounded-full shadow-lg transition-opacity duration-300 ease-in-out md:p-4"
         aria-label="Back to top"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
+          className="h-4 w-4 md:h-4 md:w-4"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

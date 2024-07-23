@@ -2,7 +2,7 @@ import React from 'react';
 
 const Youtube = () => {
   return (
-    <div className='px-4 sm:px-10 mt-10 container mx-auto ' data-aos="zoom-in">
+    <div className='px-4 sm:px-10 mt-10 container mx-auto' data-aos="zoom-in" data-aos-duration="1000">
       <h2 className='text-primary text-center sm:text-left text-2xl md:text-3xl font-extrabold mb-4'>Strategi Parenting Anak Paling Penting</h2>
       <p className='text-right text-gray-600 text-sm'>Source: Youtube TED</p>
       <div className='relative mt-4 aspect-video'> {/* aspect-video provides a 16:9 ratio */}

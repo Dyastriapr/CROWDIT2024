@@ -6,7 +6,7 @@ import { FaPersonCircleXmark } from "react-icons/fa6";
 
 const Kesalahan = () => {
   return (
-    <div className='px-10 mt-10' data-aos="fade-up">
+    <div className='px-10 mt-10' data-aos="fade-up"   data-aos-duration="1000">
       <h2 className='text-center text-2xl md:text-3xl font-extrabold mb-6 text-primary'>3 Kesalahan Utama Dalam Mendidik Anak</h2>
       {/* First row */}
       <div className='flex flex-wrap justify-center '>
